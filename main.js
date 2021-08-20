@@ -1,6 +1,6 @@
  $(document).ready(function() {
     var dataTable = $('#filtertable').DataTable({
-        "pageLength":5,
+        "pageLength":10,
         'aoColumnDefs':[{
             'bSortable':false,
             'aTargets':['nosort'],
